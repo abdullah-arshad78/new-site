@@ -75,7 +75,10 @@ text-align: center;
 h1 { font-size: 3rem;
   line-height: 1.5;
 font-weight: 800;
-animation: moveInLeft 1s ease-in-out ;}
+}
+h1.big-heading{
+  animation: moveInLeft 1s ease-in-out ;
+}
 .container-fluid { padding: 7% 15%;}
 #title{
   text-align: left;
@@ -132,12 +135,18 @@ font-family: 'Montserrat', sans-serif;}
 #features { background-color: #fff;
   position: relative;
 }
+h2.heading-feature{
+  animation: moveInLeft 1s ease-in-out ;
+}
 .fa-feature { color:#0278ae;
 margin-bottom: 1rem;}
 .fa-feature:hover {color:#0f3057 ;
 
 }
-.feature-box { padding: 5%;}
+.feature-box {
+  animation: moveInRight 1s ease-in-out ;
+   padding: 5%;}
+
 .features-des {
   font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
